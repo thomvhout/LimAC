@@ -45,6 +45,7 @@ $ python -m pip install -r requirements.txt
 Setup SSL certificate (optional):
 
 `$ openssl req -x509 -newkey rsa:4096 -nodes -out cert.pem -keyout key.pem -days 365`
+
 ---
 Note: When using no certificates (a.k.a. skipping this step), it is required to edit `wsgi.py` and change `ssl_context=('cert.pem', 'key.pem')` to `ssl_context='adhoc'`.
 ---
