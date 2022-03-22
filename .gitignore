@@ -1,0 +1,15 @@
+# SSL certificates
+cert.pem
+key.pem
+
+# Generated track images
+plotlyflask/plotlydash/assets/img/
+
+venv_site
+__pycache__
+plotlyflask/__pycache__
+plotlyflask/plotlydash/__pycache__
+content/__pycache__
+
+# Assetto Corsa server itself
+content/server
